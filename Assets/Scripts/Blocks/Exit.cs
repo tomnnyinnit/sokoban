@@ -28,7 +28,6 @@ public class Exit : MonoBehaviour
         {
             if (block.blockID == targetBlock)
             {
-                Debug.Log("ooooo");
                 SceneManager.LoadScene(nextScene);
             }   
         }
